@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #EFEFEF;
+    font-family: 'Roboto' sans-serif;
+    font-weight: 400;
+}
+.header-nav {
+    max-width: 1110px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 17px 0 16px 0;
+}
+.header-item {
+    display: inline-block;
+    margin-right: 30px;
+}
+.header-item:last-child {
+    margin-right: 0;
+}
+.header-link {
+    font-size: 14px;
+    line-height: 16px;
+    color: #333333;
+    text-decoration: none;
+}
+.header-link:hover {
+    color: #6d5656;
+}
+.logo {
+    max-width: 1110px;
+    margin: 0 auto;
+    color: #FFFFFF;
+
+
+}
