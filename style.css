@@ -3,7 +3,7 @@
 }
 body {
     background-color: #EFEFEF;
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
 }
 .header-nav {
@@ -29,9 +29,43 @@ body {
     color: #6d5656;
 }
 .logo {
+background-color: #FFFFFF;
+padding: 20px 0;
+border: 1px solid #EFEFEF;
+}
+.container {
     max-width: 1110px;
     margin: 0 auto;
+}
+.logos {
+    float: left;
+}
+.phone {
+    float: right;
+    margin-top: 41px;
+}
+.clearfix {
+    clear: both;
+}
+.phone-link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 40px;
+}
+.phone-button {
+    background: #FFFFFF;
+    border: 2px solid #F13C6E;
+    box-sizing: border-box;
+    border-radius: 40px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 25px 10px 24.5px;
+}
+.phone-button:hover {
     color: #FFFFFF;
-
-
+    background-color: #F13C6E;
 }
