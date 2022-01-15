@@ -30,7 +30,7 @@ body {
 }
 .logo {
 background-color: #FFFFFF;
-padding: 20px 0;
+padding: 19px 0;
 border: 1px solid #EFEFEF;
 }
 .container {
@@ -40,6 +40,10 @@ border: 1px solid #EFEFEF;
 .logos {
     float: left;
 }
+.logo-figure:hover {
+    background-color: #cac5c6;
+}
+
 .phone {
     float: right;
     margin-top: 41px;
@@ -53,6 +57,9 @@ border: 1px solid #EFEFEF;
     color: #000000;
     text-decoration: none;
     margin-right: 40px;
+}
+.phone-link:hover {
+    color: #6d5656;
 }
 .phone-button {
     background: #FFFFFF;
@@ -68,4 +75,27 @@ border: 1px solid #EFEFEF;
 .phone-button:hover {
     color: #FFFFFF;
     background-color: #F13C6E;
+}
+.menu {
+    background-color: #FFFFFF;
+    padding: 30px 0;
+}
+.menu-link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    text-decoration: none;
+}
+.menu-link:hover {
+    color: #5c5151;
+}
+.menu-item {
+    margin-right: 40px;
+    display: inline-block;
+}
+.menu-item:last-child {
+    margin-right: 0;
+}
+.menu-list {
+    text-align: center;
 }
