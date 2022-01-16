@@ -218,6 +218,7 @@ border: 1px solid #EFEFEF;
 }
 .bonus-rect {
     float: left;
+    max-width: 250px;
 }
 .bonus-figure {
     float: right;
@@ -242,4 +243,22 @@ border: 1px solid #EFEFEF;
 }
 .bonus-text.bus {
     max-width: 145px;
+}
+.container.impuls {
+    padding: 100px 0 80px 0;
+}
+.impuls-item {
+    display: inline-block;
+}
+.impuls-link {
+    background-color: #FFFFFF;
+    border: 1px solid #EFEFEF;
+    display: inline-block;
+}
+.impuls-link:hover {
+    background-color: #EFEFEF;
+}
+.impuls-img {
+    padding: 32.335px 63.185px;
+
 }
