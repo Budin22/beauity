@@ -40,6 +40,13 @@ border: 1px solid #EFEFEF;
 .logos {
     float: left;
 }
+.logo-link {
+    display: inline-block;
+}
+.logo-img {
+    display: inline-block;
+    vertical-align: top;
+}
 .logo-figure:hover {
     background-color: #cac5c6;
 }
@@ -268,7 +275,9 @@ border: 1px solid #EFEFEF;
     background-color: #EFEFEF;
 }
 .impuls-img {
-    padding: 32.335px 63.185px;
+    padding: 33.935px 63.185px;
+    display: inline-block;
+    vertical-align: top;
 }
 .sell-remember {
     padding-bottom: 81px;
@@ -305,4 +314,48 @@ border: 1px solid #EFEFEF;
 }
 .categor-link:hover {
     color: #b68686;
+}
+.icon {
+    background-color: #FFFFFF;
+    border-top: 1px solid #EFEFEF;
+    padding: 37px 0 38px 0;
+}
+.icon-img {
+    display: inline-block;
+    vertical-align: top;
+}
+.icon-link {
+    display: inline-block;
+}
+.icon-link:hover {
+    background-color: #b68686;
+}
+.icon-item {
+    display: inline-block;
+    margin-right: 20px;
+}
+.icon-item:last-child {
+    margin-right: 0;
+}
+.icon-list {
+    float: left;
+}
+.icon-phone {
+    padding-top: 13px;
+    float: right;
+}
+.confid {
+    padding: 25px 0;
+}
+.confid-body {
+    float: left;
+    max-width: 700px;
+}
+.confid-text {
+    font-size: 12px;
+    line-height: 14px;
+    color: #828282;
+}
+.confid-politic {
+    float: right;
 }
