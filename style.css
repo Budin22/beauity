@@ -168,6 +168,15 @@ border: 1px solid #EFEFEF;
 .sell-body {
     margin-bottom: 20px;
 }
+.price {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    display: block;
+    margin-bottom: 20px;
+}
 .sell-text {
     font-size: 14px;
     line-height: 20px;
@@ -263,4 +272,37 @@ border: 1px solid #EFEFEF;
 }
 .sell-remember {
     padding-bottom: 81px;
+}
+.categors {
+    padding: 60px 0;
+    background-color: #FFFFFF;
+}
+.categors-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140.62%;
+    color: #000000;
+    margin-bottom: 30px;
+    max-width: 120px;
+}
+.categors-item {
+    width: 255px;
+    margin-right: 30px;
+    display: inline-block;
+}
+.categors-item:last-child {
+    margin-right: 0;
+}
+.categor-list {
+    border-top: 1px solid #EFEFEF;
+    padding-top: 25px;
+}
+.categor-link {
+    font-size: 12px;
+    line-height: 28px;
+    color: #828282;
+    text-decoration: none;
+}
+.categor-link:hover {
+    color: #b68686;
 }
