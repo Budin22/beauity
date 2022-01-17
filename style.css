@@ -26,7 +26,7 @@ body {
     text-decoration: none;
 }
 .header-link:hover {
-    color: #6d5656;
+    color: #cca7a7;
 }
 .logo {
 background-color: #FFFFFF;
@@ -50,7 +50,6 @@ border: 1px solid #EFEFEF;
 .logo-figure:hover {
     background-color: #cac5c6;
 }
-
 .phone {
     float: right;
     margin-top: 41px;
@@ -66,7 +65,7 @@ border: 1px solid #EFEFEF;
     margin-right: 40px;
 }
 .phone-link:hover {
-    color: #6d5656;
+    color: #c2afaf;
 }
 .phone-button {
     background: #FFFFFF;
@@ -94,7 +93,7 @@ border: 1px solid #EFEFEF;
     text-decoration: none;
 }
 .menu-link:hover {
-    color: #5c5151;
+    color: #bba2a2;
 }
 .menu-item {
     margin-right: 40px;
