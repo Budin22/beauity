@@ -52,7 +52,7 @@ border: 1px solid #EFEFEF;
 }
 .phone {
     float: right;
-    margin-top: 41px;
+    margin-top: 18px;
 }
 .clearfix {
     clear: both;
@@ -76,7 +76,8 @@ border: 1px solid #EFEFEF;
     line-height: 16px;
     color: #000000;
     text-decoration: none;
-    padding: 9.62px 25px 9.62px 24.5px;
+    padding: 10.225px 24.73px;
+    font-family: 'Roboto', sans-serif;
 }
 .phone-button:hover {
     color: #FFFFFF;
@@ -362,7 +363,7 @@ border: 1px solid #EFEFEF;
     float: left;
 }
 .icon-phone {
-    padding-top: 13px;
+    padding-top: 3px;
     float: right;
 }
 .footer-down {
