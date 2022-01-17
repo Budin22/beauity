@@ -316,19 +316,41 @@ border: 1px solid #EFEFEF;
     color: #b68686;
 }
 .icon {
-    background-color: #FFFFFF;
     border-top: 1px solid #EFEFEF;
-    padding: 37px 0 38px 0;
 }
 .icon-img {
     display: inline-block;
     vertical-align: top;
 }
+.icon-img.instagram {
+    height: 22px;
+    width: 22px;
+    margin: 9.5px;
+}
+.icon-img.fb {
+    height: 20px;
+    width: 11px;
+    margin: 10.5px 15px;
+}
+.icon-img.vk {
+    height: 16px;
+    width: 28px;
+    margin: 12.5px 6.5px;
+}
+.icon-img.youtube {
+    height: 16px;
+    width: 22.18px;
+    margin: 12.5px 9.41px;
+}
 .icon-link {
     display: inline-block;
+    border: 2px solid #F13C6E;
+    border-radius: 22.5px;
+    height: 45px;
+    width: 45px;
 }
 .icon-link:hover {
-    background-color: #b68686;
+    background-color: #dfbfbf;
 }
 .icon-item {
     display: inline-block;
@@ -344,8 +366,12 @@ border: 1px solid #EFEFEF;
     padding-top: 13px;
     float: right;
 }
-.confid {
+.footer-down {
     padding: 25px 0;
+}
+.footer-up {
+    background-color: #FFFFFF;
+    padding: 37px 0 38px 0;
 }
 .confid-body {
     float: left;
