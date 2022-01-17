@@ -171,6 +171,11 @@ border: 1px solid #EFEFEF;
 }
 .sell-figur {
     margin-bottom: 20px;
+    display: inline-block;
+}
+.sell-img {
+    display: inline-block;
+    vertical-align: top;
 }
 .sell-body {
     margin-bottom: 20px;
@@ -198,8 +203,9 @@ border: 1px solid #EFEFEF;
     line-height: 16px;
     letter-spacing: 0.05em;
     color: #FFFFFF;
-    padding: 9.1px 40px 9.1px 39.7px;
+    padding: 9.51px 39.98px;
     text-decoration: none;
+    display: inline-block;
 }
 .button-link-buy:hover {
     background-color: #e94242;
@@ -239,6 +245,7 @@ border: 1px solid #EFEFEF;
 .bonus-figure {
     float: right;
     margin-top: 17.73px;
+    display: inline-block;
 }
 .bonus-mail {
     background: #FFFFFF;
@@ -259,6 +266,10 @@ border: 1px solid #EFEFEF;
 }
 .bonus-text.bus {
     max-width: 145px;
+}
+.bonus-img {
+    display: inline-block;
+    vertical-align: top;
 }
 .container.impuls {
     padding: 100px 0 80px 0;
